@@ -1,0 +1,83 @@
+CREW DUTY ROSTER - DTR Airlines - Employee 12345 - Jan 2025 to Dec 2025
+
+Date       Duty    Start   End     Loc1    Loc2   Remarks           ACReg
+--------------------------------------------------------------------------
+2025-01-05 DO      00:00   23:59   HOME           Day Off
+2025-01-08 CI      06:00   06:30   AMS            Report for duty
+2025-01-08 DX101   07:30   09:45   AMS     CDG    Flight to Paris   PH-BDA
+2025-01-08 CO      10:15   10:45   CDG            End of duty day
+2025-01-09 SBY     08:00   16:00   CDG            Airport Standby
+2025-01-10 FLT DX102 09:00   11:15   CDG     AMS    Return Flight     PH-BDA
+2025-01-11 DO      00:00   23:59   HOME           Day Off
+
+2025-02-03 SIM     09:00   13:00   AMS            Simulator Training
+2025-02-05 CI      14:00   14:30   AMS            Report Duty
+2025-02-05 AB201   15:30   18:45   AMS     BOS    Flight to Boston  PH-CDE
+2025-02-06 UNK     00:00   23:59   BOS            Layover Duty      Hotel Marriott
+2025-02-07 AB202   10:00   13:15   BOS     AMS    Return Flight     PH-CDE
+2025-02-08 DO      00:00   23:59   HOME           Day Off
+
+2025-03-12 CI      05:00   05:30   AMS            Early Check-in
+2025-03-12 FLT KL123 06:30   09:45   AMS     JFK    Flight to NYC    PH-EFG
+2025-03-13 SBY     12:00   20:00   JFK            Airport Standby
+2025-03-14 KL124   08:00   11:15   JFK     AMS    Return Flight     PH-EFG
+2025-03-15 DO      00:00   23:59   HOME           Day Off
+
+2025-04-02 DO      00:00   23:59   HOME           Day Off
+2025-04-04 CI      12:00   12:30   AMS            Report Duty
+2025-04-04 XY501   13:30   18:45   AMS     DXB    Flight to Dubai   PH-GHI
+2025-04-05 CO      19:15   19:45   DXB            Debrief
+2025-04-06 XY502   07:00   11:15   DXB     AMS    Return Flight     PH-GHI
+
+2025-05-07 SBY     09:00   17:00   AMS            Airport Standby
+2025-05-08 CI      14:00   14:30   AMS            Report Duty
+2025-05-08 FLT AB301 15:30   17:45   AMS     LHR    Flight to London PH-BDA
+2025-05-09 DO      00:00   23:59   LHR            Layover / Day Off
+2025-05-10 AB302   10:00   12:15   LHR     AMS    Return Flight     PH-BDA
+
+2025-06-11 SIM     08:00   12:00   AMS            Simulator Training
+2025-06-12 DO      00:00   23:59   HOME           Day Off
+2025-06-14 CI      16:00   16:30   AMS            Report Duty
+2025-06-14 KL301   17:30   20:45   AMS     SFO    Flight to SF      PH-JKL
+2025-06-15 UNK     00:00   23:59   SFO            Layover Duty
+
+2025-07-03 DO      00:00   23:59   HOME           Day Off
+2025-07-05 CI      07:00   07:30   AMS            Report for duty
+2025-07-05 FLT DX401 08:30   10:45   AMS     MAD    Flight to Madrid PH-MNO
+2025-07-05 CO      11:15   11:45   MAD            End of duty day
+2025-07-06 DX402   09:00   11:15   MAD     AMS    Return Flight     PH-MNO
+
+2025-08-09 SBY     10:00   18:00   AMS            Airport Standby
+2025-08-10 CI      13:00   13:30   AMS            Report Duty
+2025-08-10 AB401   14:30   17:45   AMS     ORD    Flight to Chicago PH-PQR
+2025-08-11 UNK     00:00   23:59   ORD            Layover Duty
+2025-08-12 AB402   08:00   11:15   ORD     AMS    Return Flight     PH-PQR
+
+2025-09-04 DO      00:00   23:59   HOME           Day Off
+2025-09-06 SIM     09:00   13:00   AMS            Simulator Training
+2025-09-07 CI      15:00   15:30   AMS            Report Duty
+2025-09-07 FLT KL501 16:30   19:45   AMS     BKK    Flight to Bangkok PH-STU
+2025-09-08 CO      20:15   20:45   BKK            Debrief
+
+2025-10-11 CI      06:00   06:30   AMS            Early Check-in
+2025-10-11 DX501   07:30   10:45   AMS     FRA    Flight to Frankfurt PH-VWX
+2025-10-11 CO      11:15   11:45   FRA            End of duty day
+2025-10-12 DO      00:00   23:59   FRA            Layover / Day Off
+2025-10-13 DX502   08:00   10:15   FRA     AMS    Return Flight     PH-VWX
+
+2025-11-05 SBY     12:00   20:00   AMS            Airport Standby
+2025-11-06 DO      00:00   23:59   HOME           Day Off
+2025-11-08 CI      18:00   18:30   AMS            Report Duty
+2025-11-08 FLT AB601 19:30   22:45   AMS     YYZ    Flight to Toronto PH-YZA
+2025-11-09 CO      23:15   23:45   YYZ            Debrief
+
+2025-12-12 DO      00:00   23:59   HOME           Day Off
+2025-12-14 CI      10:00   10:30   AMS            Report Duty
+2025-12-14 KL701   11:30   14:45   AMS     LAX    Flight to LA      PH-ZZB
+2025-12-15 UNK     00:00   23:59   LAX            Layover Duty
+2025-12-16 KL702   10:00   13:15   LAX     AMS    Return Flight     PH-ZZB
+2025-12-17 DO      00:00   23:59   HOME           Day Off
+
+--------------------------------------------------------------------------
+Codes: DO(Day Off), SBY(Standby), FLT(Flight), CI(Check-In), CO(Check-Out), SIM(Simulator/Training), UNK(Unknown/Other)
+All times displayed are in UTC. STD = Scheduled Time Departure, STA = Scheduled Time Arrival.
