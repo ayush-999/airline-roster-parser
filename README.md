@@ -97,3 +97,62 @@ Here are the settings for each endpoint in Postman:
    * **Action:** Click "Send". we get a 200 OK status with a JSON array of flight objects departing from the specified location.
 
 ---
+
+**Setting Up React.js with Vite Locally**
+=========================================
+
+### **Prerequisites**
+
+*   **Node.js** (v16 or later recommended)
+    
+    *   Download: [https://nodejs.org](https://nodejs.org/)
+        
+    *   bashCopynode -vnpm -v
+        
+
+**1\. Create a React App with Vite**
+------------------------------------
+
+Vite is a faster alternative to create-react-app.
+
+### **Step 1: Initialize the Project**
+
+Run the following command:
+
+npm create vite@latest your-react-app -- --template react
+
+(Replace your-react-app with your project name.)
+
+### **Step 2: Navigate into the Project**
+
+cd your-react-app
+
+### **Step 3: Install Dependencies**
+npm install
+
+**2\. Run the React App Locally**
+---------------------------------
+
+Start the development server:
+
+npm run dev
+
+*   The app will run at:🔗 [http://localhost:5173](http://localhost:5173/)
+    
+*   Vite provides **Hot Module Replacement (HMR)**, so changes reflect instantly.
+    
+
+**3\. Stopping the Development Server**
+---------------------------------------
+
+Press Ctrl + C in the terminal to stop the server.
+
+**Next Steps**
+--------------
+
+*   Edit src/App.jsx to modify the React app.
+    
+*   bashCopynpm install axios
+    
+
+That’s it! Your React.js (Vite) app is now running locally. 🚀
