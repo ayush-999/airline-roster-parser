@@ -141,18 +141,3 @@ npm run dev
     
 *   Vite provides **Hot Module Replacement (HMR)**, so changes reflect instantly.
     
-
-**3\. Stopping the Development Server**
----------------------------------------
-
-Press Ctrl + C in the terminal to stop the server.
-
-**Next Steps**
---------------
-
-*   Edit src/App.jsx to modify the React app.
-    
-*   bashCopynpm install axios
-    
-
-That’s it! Your React.js (Vite) app is now running locally. 🚀
