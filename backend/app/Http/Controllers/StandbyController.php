@@ -4,19 +4,48 @@ namespace App\Http\Controllers;
 
 use App\Models\Standby;
 use Carbon\Carbon;
+use Illuminate\Support\Facades\Log;
 use Illuminate\Http\Request;
 
 class StandbyController extends Controller
 {
-    public function nextWeek()
+    public function nextWeek(Request $request)
     {
-        $now = Carbon::parse('2022-01-14'); // As per assignment
-        $nextWeek = $now->copy()->addWeek();
+        try {
+            $now = Carbon::parse('2025-01-09');
+//            $now = $request->has('date')
+//                ? Carbon::parse($request->input('date'))
+//                : Carbon::now();
 
-        $standbies = Standby::whereHas('event', function($query) use ($now, $nextWeek) {
-            $query->whereBetween('start_time', [$now, $nextWeek]);
-        })->with('event')->get();
+            $nextWeek = $now->copy()->addWeek();
 
-        return response()->json($standbies);
+            Log::info('Fetching standby events', [
+                'date_range' => [
+                    'start' => $now->toDateTimeString(),
+                    'end' => $nextWeek->toDateTimeString()
+                ]
+            ]);
+
+            $standbies = Standby::with(['event' => function ($query) use ($now, $nextWeek) {
+                $query->whereBetween('start_time', [$now, $nextWeek]);
+            }])
+                ->whereHas('event', function ($query) use ($now, $nextWeek) {
+                    $query->whereBetween('start_time', [$now, $nextWeek]);
+                })
+                ->get();
+
+            Log::info('Standby events found', [
+                'count' => $standbies->count()
+            ]);
+
+            return response()->json($standbies);
+
+        } catch (\Exception $e) {
+            Log::error('Standby controller error', [
+                'error' => $e->getMessage(),
+                'trace' => $e->getTraceAsString()
+            ]);
+            return response()->json(['error' => $e->getMessage()], 500);
+        }
     }
 }

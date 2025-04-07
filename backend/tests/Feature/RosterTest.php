@@ -15,11 +15,13 @@ class RosterTest extends TestCase
         Storage::fake('rosters');
 
         // Create a text file instead of PDF for testing
-        $content = "DO 2022-01-10 00:00 23:59 HOME\n" .
+        $content = "
+        DO 2022-01-10 00:00 23:59 HOME\n" .
             "SBY 2022-01-11 08:00 16:00 JFK\n" .
             "FLT DX77 2022-01-12 08:00 10:00 JFK LAX\n" .
             "CI 2022-01-12 07:00 07:30 JFK\n" .
-            "CO 2022-01-12 10:30 11:00 LAX";
+            "CO 2022-01-12 10:30 11:00 LAX
+        ";
 
         $file = UploadedFile::fake()->createWithContent(
             'roster.txt',
